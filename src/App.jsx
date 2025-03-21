@@ -1,4 +1,4 @@
-import Index from "./pages/index";
+import Index from "./pages/Index";
 import { shoes, categories } from "./data";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import CheckBooking from "./pages/CheckBooking";
