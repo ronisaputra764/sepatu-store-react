@@ -1,6 +1,6 @@
-import Index from "./pages";
+import Index from "./pages/index";
 import { shoes, categories } from "./data";
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import CheckBooking from "./pages/CheckBooking";
 import ShoeDetails from "./pages/ShoeDetails";
 import Category from "./pages/Category";
