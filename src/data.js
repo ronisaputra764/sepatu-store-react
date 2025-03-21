@@ -43,8 +43,9 @@ export const shoes = [
     },
     {
         "id": "1",
-        "name": "Nike Air Humara", "slug": "nike-air-humara",
-        "thumbnail": "NIKE+AIR+HUMARA 00.21.57.jpeg",
+        "name": "Nike Air Humara",
+        "slug": "nike-air-humara",
+        "thumbnail": "NIKE+AIR+HUMARATHUMBNAIL.jpeg",
         "photo": [
             "nikehumara1.png",
             "nikehumara2.png",

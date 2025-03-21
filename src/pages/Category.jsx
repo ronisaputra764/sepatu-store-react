@@ -40,7 +40,7 @@ export default function Category({ categories, shoes }) {
 
                         {filteredShoes.length > 0 ? (
                             filteredShoes.map((itemShoe) => (
-                                <a href="details.html" key={itemShoe.id}>
+                                <Link to={`/details/${itemShoe.slug}`} key={itemShoe.id}>
                                     <div className="flex items-center rounded-3xl p-[10px_16px_16px_10px] gap-[14px] bg-white transition-all duration-300 hover:ring-2 hover:ring-[#FFC700]" >
                                         <div className="w-20 h-20 flex shrink-0 rounded-2xl bg-[#D9D9D9] overflow-hidden">
                                             <img src={`../assets/images/thumbnails/${itemShoe.thumbnail}`} className="w-full h-full object-cover" alt="thumbnail" />
@@ -62,7 +62,7 @@ export default function Category({ categories, shoes }) {
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </Link>
                             ))
                         ) : (<p>There is no item yet</p>)}
 
