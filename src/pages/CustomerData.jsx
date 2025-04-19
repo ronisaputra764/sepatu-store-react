@@ -129,7 +129,7 @@ export default function CustomerData({ shoes }) {
                     <hr className="border-[#EAEAED]" />
                     <div className="flex items-center gap-[10px]">
                         <img src="../assets/images/icons/shield-tick.svg" className="w-8 h-8 flex shrink-0" alt="icon" />
-                        <p className="leading-[26px]">Kami melindungi data privasi anda dengan baik bantuan Angga X.</p>
+                        <p className="leading-[26px]">Kami melindungi data privasi anda dengan baik.</p>
                     </div>
                 </div>
                 <div id="bottom-nav" className="relative flex h-[100px] w-full shrink-0 mt-5">
